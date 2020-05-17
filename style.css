@@ -23,14 +23,20 @@ a:visited {
 
 .heading {
   width: 500px;
-  margin: 10% auto;
+  margin: 10% auto 4% auto; 
 }
 
 .heading span {
   display: block;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
+}
+
+#idClock, #text {
+  margin: 4% auto;
+  text-align: center;
+  font-size: 30px;
 }
 
 .list, .heart_container{
