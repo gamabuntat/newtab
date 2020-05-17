@@ -40,7 +40,7 @@ a:visited {
 }
 
 #idClock {
-  width: 250px;
+  width: 400px;
   border: solid 1px black;
 }
 
@@ -78,3 +78,5 @@ li {
   display: flex;
   justify-content: space-around;
 }
+
+
