@@ -23,7 +23,7 @@ a:visited {
 
 .heading {
   width: 500px;
-  margin: 10% auto 4% auto; 
+  margin: 6% auto 4% auto; 
 }
 
 .heading span {
@@ -37,6 +37,11 @@ a:visited {
   margin: 4% auto;
   text-align: center;
   font-size: 30px;
+}
+
+#idClock {
+  width: 250px;
+  border: solid 1px black;
 }
 
 .list, .heart_container{
@@ -65,4 +70,11 @@ a:visited {
 
 li {
   list-style: none;
+}
+
+#duck {
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
 }
