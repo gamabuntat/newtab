@@ -40,8 +40,8 @@ a:visited {
 }
 
 #idClock {
-  width: 400px;
-  border: solid 1px black;
+  width: 450px;
+  border: dashed 1px black;
 }
 
 .list, .heart_container{
