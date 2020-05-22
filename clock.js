@@ -1,4 +1,3 @@
-
 let timerId;
 
 window.onload = function () {
@@ -11,7 +10,7 @@ window.onload = function () {
 		if (minutes < 10) minutes = "0" + minutes;
 		if (hours < 10) hours = "0" + hours;
 		let string = `${hours} : ${minutes} : ${seconds}`;
-	  document.getElementById('date').innerHTML = string;
+	  document.getElementById('idClock').innerHTML = string;
 	}
 	timerId = setInterval(setClock, 1000)
 }
