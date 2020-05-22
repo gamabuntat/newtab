@@ -1,6 +1,7 @@
 let timerId;
 
 window.onload = function () {
+	setClock ();
 	function setClock() {
 		let date = new Date();
 		let seconds = date.getSeconds();
