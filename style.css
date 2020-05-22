@@ -23,7 +23,7 @@ a:visited {
 
 .heading {
   width: 500px;
-  margin: 6% auto 4% auto; 
+  margin: 6% auto 4% auto;
 }
 
 .heading span {
@@ -40,8 +40,7 @@ a:visited {
 }
 
 #idClock {
-  width: 450px;
-  border: dashed 1px black;
+  font-size: 60px;
 }
 
 .list, .heart_container{
@@ -78,5 +77,3 @@ li {
   display: flex;
   justify-content: space-around;
 }
-
-
