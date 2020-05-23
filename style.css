@@ -39,11 +39,18 @@ a:visited {
   font-size: 30px;
 }
 
+.fb {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
 #idClock {
   font-size: 60px;
 }
 
-.list, .heart_container{
+.list, .heart_container {
   margin: 0 auto;
   display: flex;
   flex-direction: row;
